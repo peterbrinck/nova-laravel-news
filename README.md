@@ -1,9 +1,5 @@
 # Nova Laravel News Cards
 
-This package adds a Laravel News card to the Nova dashboard
-
-# Nova Laravel News Cards
-
 Adds a card to the Nova dashboard with the latest news from Laravel News
 
 ## Installation
