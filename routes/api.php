@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,6 +15,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/endpoint', function (Request $request) {
-//     //
-// });
+Route::get('news', function (Request $request) {
+    $data = Cache::remember('laravel-news::news', 60, function () {
+        $rss = new SimpleXmlElement(file_get_contents('https://feed.laravel-news.com/'));
+        return json_encode($rss);
+    });
+    return response()->json($data);
+});
