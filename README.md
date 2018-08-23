@@ -2,6 +2,8 @@
 
 Adds a card to the Nova dashboard with the latest news from Laravel News
 
+Also at [Nova Packages](https://novapackages.com/packages/11)
+
 ## Installation
 
 You can install the card in to a Laravel app that uses [Nova](https://nova.laravel.com) via composer:
