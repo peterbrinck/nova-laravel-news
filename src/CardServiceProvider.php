@@ -1,6 +1,6 @@
 <?php
 
-namespace Peterbrinck\NovaLaravelNews;
+namespace PeterBrinck\NovaLaravelNews;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;

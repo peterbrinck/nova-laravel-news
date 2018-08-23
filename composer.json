@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Peterbrinck\\NovaLaravelNews\\": "src/"
+            "PeterBrinck\\NovaLaravelNews\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Peterbrinck\\NovaLaravelNews\\CardServiceProvider"
+                "PeterBrinck\\NovaLaravelNews\\CardServiceProvider"
             ]
         }
     },
