@@ -4,7 +4,7 @@
             <h1 class="text-center text-sm text-80 uppercase mb-3">Laravel News</h1>
             <div v-for="news in feedNews" class="max-w-sm rounded overflow-hidden">
                 <div class="px-6 py-4">
-                    <a class="no-underline dim font-bold text-90 text-xl mr-6" :href="news.link">{{ news.title }}</a>
+                    <a class="no-underline dim font-bold text-90 text-xl mr-6" target="_blank" :href="news.link">{{ news.title }}</a>
                     <p class="text-grey-darker text-base">
                         {{ formatDate(news.pubDate) }}
                     </p>
