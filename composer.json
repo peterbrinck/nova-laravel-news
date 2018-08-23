@@ -1,6 +1,6 @@
 {
     "name": "peterbrinck/nova-laravel-news",
-    "description": "A Laravel Nova card.",
+    "description": "Adds a card to the Nova dashboard with the latest news from Laravel News",
     "keywords": [
         "laravel",
         "nova"
