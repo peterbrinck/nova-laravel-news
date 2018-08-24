@@ -2,7 +2,7 @@
 
 Adds a card to the Nova dashboard with the latest news from Laravel News
 
-Also at [Nova Packages](https://novapackages.com/packages/11)
+Also at [Nova Packages](https://novapackages.com/packages/peterbrinck/nova-laravel-news)
 
 ## Installation
 
